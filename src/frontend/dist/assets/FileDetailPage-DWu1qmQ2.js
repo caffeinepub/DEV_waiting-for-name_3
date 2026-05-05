@@ -1,5 +1,5 @@
-import { c as createLucideIcon, r as reactExports, j as jsxRuntimeExports, R as React, d as composeRefs, e as reactDomExports, u as useComposedRefs, v as vt, b as cn, f as buttonVariants, o, g as useParams, h as useNavigate, B as Button, S as Skeleton, F as FileText } from "./index-CS8Lq9JP.js";
-import { c as useGetFile, d as useDeleteFile, F as File, b as Layout, L as LoaderCircle, I as Image, A as Archive } from "./useFiles-CJTG6NlH.js";
+import { c as createLucideIcon, r as reactExports, j as jsxRuntimeExports, R as React, d as composeRefs, e as reactDomExports, u as useComposedRefs, v as vt, b as cn, f as buttonVariants, o, g as useParams, h as useNavigate, B as Button, S as Skeleton, F as FileText } from "./index-DhSg41Tm.js";
+import { c as useGetFile, d as useDeleteFile, F as File, b as Layout, L as LoaderCircle, I as Image, A as Archive } from "./useFiles-4JR-77iA.js";
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -2615,7 +2615,6 @@ function FileDetailPage() {
         if (done) break;
         chunks.push(value);
         received += value.length;
-        console.log(value.length, received, total);
         const progress = total > 0 ? Math.min(100, Math.round(received / total * 100)) : 0;
         setDlState({ status: "downloading", progress, received, total });
       }

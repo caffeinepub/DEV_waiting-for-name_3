@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/FilesPage-D_nSCF0h.js","assets/useFiles-CJTG6NlH.js","assets/FileDetailPage-DzMiad2L.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/FilesPage-B3OSTVxZ.js","assets/useFiles-4JR-77iA.js","assets/FileDetailPage-DWu1qmQ2.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __typeError = (msg) => {
   throw TypeError(msg);
@@ -34520,8 +34520,8 @@ function LoginPage() {
     ] }) }) })
   ] });
 }
-const FilesPage = reactExports.lazy(() => __vitePreload(() => import("./FilesPage-D_nSCF0h.js"), true ? __vite__mapDeps([0,1]) : void 0));
-const FileDetailPage = reactExports.lazy(() => __vitePreload(() => import("./FileDetailPage-DzMiad2L.js"), true ? __vite__mapDeps([2,1]) : void 0));
+const FilesPage = reactExports.lazy(() => __vitePreload(() => import("./FilesPage-B3OSTVxZ.js"), true ? __vite__mapDeps([0,1]) : void 0));
+const FileDetailPage = reactExports.lazy(() => __vitePreload(() => import("./FileDetailPage-DWu1qmQ2.js"), true ? __vite__mapDeps([2,1]) : void 0));
 const PageLoader = () => /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1 p-6", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4", children: ["s1", "s2", "s3", "s4", "s5", "s6"].map((id) => /* @__PURE__ */ jsxRuntimeExports.jsx(Skeleton, { className: "h-32 w-full rounded-lg" }, id)) }) });
 const rootRoute = createRootRoute({
   component: () => /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {})
