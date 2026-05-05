@@ -126,6 +126,8 @@ export default function FileDetailPage() {
         chunks.push(value);
         received += value.length;
 
+        console.log(value.length, received, total);
+
         const progress =
           total > 0 ? Math.min(100, Math.round((received / total) * 100)) : 0;
         setDlState({ status: "downloading", progress, received, total });
